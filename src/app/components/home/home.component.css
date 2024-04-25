@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+
+    width: 300px;
+    text-align: center;
+    overflow-x:auto;
+  }
+
+  .table{
+    background-color:azure ;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+   
+    
+    
+  }
+
+  .btnact{
+display: flex ;
+justify-content: space-evenly;
+
+  }
+
+  .btnAdd{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100px;
+    align-self: center;
+    margin-left: 20px;
+   
+}
+
+.btnDelete{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100px;
+    align-self: center;
+    margin-right: 30px !important;
+}
+.btnAdd1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100px;
+    align-self: center;
+    margin-left: 50px;
+}
+.btnBack{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 200px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+

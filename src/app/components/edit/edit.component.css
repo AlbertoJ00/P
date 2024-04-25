@@ -1,0 +1,19 @@
+.create-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.username{
+    
+    margin-top: 30px;
+    
+}
+
+.btnBack{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    align-self: center;
+}

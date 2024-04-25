@@ -1,0 +1,28 @@
+{
+  "User": [
+    {
+      "id": "4",
+      "name": "Luis",
+      "lastName": "perez",
+      "ocupation": "chef"
+    },
+    {
+      "id": "1",
+      "name": "Jose",
+      "lastName": "Perez",
+      "ocupation": "Chef"
+    },
+    {
+      "id": "6",
+      "name": "Alberto",
+      "lastName": "Santana",
+      "ocupation": "Cocinero"
+    },
+    {
+      "id": "7",
+      "name": "Harvey",
+      "lastName": "Ferreras",
+      "ocupation": "Chofer"
+    }
+  ]
+}

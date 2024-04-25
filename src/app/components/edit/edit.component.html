@@ -1,0 +1,35 @@
+<mat-toolbar color="primary" > Prueba tecnica</mat-toolbar>
+
+<div  fxLayoutAlign = "center center" fxFlexFill>
+    <mat-card  fxFlex ="30">
+        <mat-toolbar color="primary" > Edit user </mat-toolbar>
+        <form class="create-form" >
+
+            <mat-form-field class="username" >
+                <mat-label>Id</mat-label>
+              <input type="text" [(ngModel)]="formdata.id"  name="id"  matInput   />
+            </mat-form-field>
+
+            <mat-form-field class="username" >
+                <mat-label>Name</mat-label>
+              <input type="text" [(ngModel)]="formdata.name"   name="txtName"  matInput   />
+            </mat-form-field>
+
+            <mat-form-field class="username" >
+                <mat-label>LastName</mat-label>
+              <input type="text" [(ngModel)]="formdata.lastName"  name="txtLastname"  matInput    />
+            </mat-form-field>
+
+            <mat-form-field class="username" >
+                <mat-label>Ocupation</mat-label>
+              <input type="text" [(ngModel)]="formdata.ocupation"  name="txtOcupation"   matInput    />
+            </mat-form-field>
+
+           
+          
+            
+          </form>
+          <button class="btn"  color="primary" (click)="updateUser()" mat-raised-button  > Update </button>
+          <button class="btnBack"  color="primary" mat-raised-button  (click)="back()" > Back  </button>
+      </mat-card>
+</div>

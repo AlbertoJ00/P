@@ -1,0 +1,21 @@
+<mat-toolbar color="primary" > Prueba tecnica</mat-toolbar>
+
+<div  fxLayoutAlign = "center center" fxFlexFill>
+    <mat-card  fxFlex ="30">
+        <mat-toolbar color="primary" > Login Page</mat-toolbar>
+        <form class="login-form" >
+            <mat-form-field class="username" >
+                <mat-label>Username</mat-label>
+              <input type="text"   id="username"  matInput #usernameInput   />
+            </mat-form-field>
+
+           
+          
+            <mat-form-field   class="Password" >
+                <mat-label>Password</mat-label>
+                <input  type="password" id="password" matInput  #passwordInput  >
+              </mat-form-field>
+          </form>
+          <button class="btn" color="primary" mat-raised-button (click)="login(usernameInput.value, passwordInput.value)" > Login </button>
+      </mat-card>
+</div>
